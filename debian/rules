@@ -4,3 +4,8 @@ include /usr/share/cdbs/1/rules/debhelper.mk
 include /usr/share/cdbs/1/class/maven.mk
 
 JAVA_HOME := /usr/lib/jvm/default-java
+
+
+override_dh_install:
+	chmod 0755 target/DummyDroid*.jar
+	dh_install
