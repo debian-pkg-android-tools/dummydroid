@@ -1,0 +1,13 @@
+Index: dummydroid/src/main/java/de/onyxbits/dummydroid/LoadForm.java
+===================================================================
+--- dummydroid.orig/src/main/java/de/onyxbits/dummydroid/LoadForm.java
++++ dummydroid/src/main/java/de/onyxbits/dummydroid/LoadForm.java
+@@ -21,7 +21,7 @@ public class LoadForm extends AbstractFo
+ 
+ 	public LoadForm(NavigateAction forwardAction, NavigateAction backwardAction) {
+ 		super(forwardAction, backwardAction);
+-		fileChooser = new JFileChooser(new File(System.getProperty("user.dir")));
++		fileChooser = new JFileChooser(new File("/usr/share/doc/dummydroid/examples"));
+ 		fileChooser.setFileFilter(new BuildPropFilter());
+ 		properties = new Properties();
+ 		add(fileChooser);
