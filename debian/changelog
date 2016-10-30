@@ -1,0 +1,5 @@
+dummydroid (1.1-1) unstable; urgency=low
+
+  * Initial release in Debian (Closes: #).
+
+ -- Hans-Christoph Steiner <hans@eds.org>  Fri, 12 Jun 2015 12:28:21 -0400

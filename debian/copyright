@@ -1,0 +1,17 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0
+Upstream-Name: dummydroid
+Source: https://github.com/onyxbits/dummydroid
+
+Files: *
+Copyright: 2015-2016 Patrick Ahlbrecht
+           2016 Maarten Fonville
+           2010 The Android Open Source Project
+License: Apache-2.0
+
+Files: debian/*
+Copyright: 2016 Hans-Christoph Steiner
+License: Apache-2.0
+
+License: Apache-2.0
+ On Debian systems, the complete text of the Apache version 2.0 license
+ can be found in "/usr/share/common-licenses/Apache-2.0".

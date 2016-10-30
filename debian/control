@@ -1,0 +1,37 @@
+Source: dummydroid
+Section: devel
+Priority: extra
+Maintainer: Android tools Maintainer <android-tools-devel@lists.alioth.debian.org>
+Uploaders: Hans-Christoph Steiner <hans@eds.org>
+Build-Depends:  cdbs,
+                debhelper (>= 9),
+                default-jdk,
+                libprotobuf-java,
+                maven-debian-helper (>= 1.5~)
+Standards-Version: 3.9.8
+Homepage: http://www.onyxbits.de/dummydroid
+Vcs-Git: https://anonscm.debian.org/git/android-tools/dummydroid.git
+Vcs-Browser: https://anonscm.debian.org/cgit/android-tools/dummydroid.git
+
+Package: dummydroid
+Architecture: all
+Depends: ${java:Depends}, ${misc:Depends}
+Recommends: ${java:Recommends}
+Description: Register a GSF ID for mock-up Android devices
+ Dummy Droid allows you to create hardware profiles for arbitrary
+ Android devices and upload them into your Google Play account,
+ thereby creating a "Google Services Framework ID".
+ .
+ Mocks can either be generated from the /system/build.prop file of
+ existing hardware or be completely made up from scratch. You (may)
+ need this tool if Google Play won't give you access to an app because
+ of device incompatibilities, country or carrier restrictions. You
+ (may) also need this tool if you are an app developer yourself and
+ want to test compatibility filter settings without actually owning
+ the target device.
+ .
+ Word of warning: Dummy Droid grants you absolute freedom, including
+ the freedom to specify absolute nonsense (such as a smart-tv with a
+ screensize of 1 pixel). Please pay attention to the instructions and
+ use a throw-away account for testing. Otherwise you might end up with
+ dozens of mocks in your main account you cannot get rid of again!
