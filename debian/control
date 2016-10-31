@@ -3,13 +3,13 @@ Section: devel
 Priority: extra
 Maintainer: Android tools Maintainer <android-tools-devel@lists.alioth.debian.org>
 Uploaders: Hans-Christoph Steiner <hans@eds.org>
-Build-Depends:  cdbs,
-                debhelper (>= 9),
-                default-jdk,
-                javahelper,
-                libmaven-assembly-plugin-java,
-                libprotobuf-java,
-                maven-debian-helper (>= 1.5~)
+Build-Depends: cdbs,
+               debhelper (>= 9),
+               default-jdk,
+               javahelper,
+               libmaven-assembly-plugin-java,
+               libprotobuf-java,
+               maven-debian-helper (>= 1.5~)
 Standards-Version: 3.9.8
 Homepage: http://www.onyxbits.de/dummydroid
 Vcs-Git: https://anonscm.debian.org/git/android-tools/dummydroid.git
