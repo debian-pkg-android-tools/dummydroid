@@ -17,7 +17,9 @@ Vcs-Browser: https://anonscm.debian.org/cgit/android-tools/dummydroid.git
 
 Package: dummydroid
 Architecture: all
-Depends: ${java:Depends}, ${misc:Depends}
+Depends: ${java:Depends}, ${misc:Depends},
+         libhttpclient-java,
+         libhttpcore-java
 Recommends: ${java:Recommends}
 Description: Register a GSF ID for mock-up Android devices
  Dummy Droid allows you to create hardware profiles for arbitrary
