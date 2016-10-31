@@ -6,6 +6,5 @@ include /usr/share/cdbs/1/class/maven.mk
 JAVA_HOME := /usr/lib/jvm/default-java
 
 
-override_dh_install:
+build/dummydroid::
 	chmod 0755 target/DummyDroid*.jar
-	dh_install
