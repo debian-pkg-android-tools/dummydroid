@@ -3,6 +3,7 @@ dummydroid/
 dummydroid.debhelper.log
 dummydroid.substvars
 files
+jh_build_stamp
 maven-repo/
 stamp-maven-check
 stamp-poms-patched

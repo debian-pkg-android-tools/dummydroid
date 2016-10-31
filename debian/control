@@ -6,6 +6,7 @@ Uploaders: Hans-Christoph Steiner <hans@eds.org>
 Build-Depends:  cdbs,
                 debhelper (>= 9),
                 default-jdk,
+                javahelper,
                 libmaven-assembly-plugin-java,
                 libprotobuf-java,
                 maven-debian-helper (>= 1.5~)
