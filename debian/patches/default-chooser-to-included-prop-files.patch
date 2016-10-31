@@ -1,3 +1,10 @@
+Description: set default file chooser folder to examples
+ This sets the default dir for the build profile file chooser to be
+ the examples folder that is included in this package, which includes
+ a few build profiles.
+Author: Hans-Christoph Steiner <hans@eds.org>
+Forwarded: not-needed
+
 Index: dummydroid/src/main/java/de/onyxbits/dummydroid/LoadForm.java
 ===================================================================
 --- dummydroid.orig/src/main/java/de/onyxbits/dummydroid/LoadForm.java
