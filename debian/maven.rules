@@ -1,4 +1,4 @@
 
 de.onyxbits dummydroid jar s/.*/debian/ * *
 junit junit jar s/3\..*/3.x/ * *
-com.google.protobuf protobuf-java jar s/2.5.0/3.0.0/
+com.google.protobuf protobuf-java jar s/2.5.0/debian/
