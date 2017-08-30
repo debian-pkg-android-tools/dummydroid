@@ -4,4 +4,4 @@ debian/Google_Nexus_5_Copperhead.prop /usr/share/doc/dummydroid/examples/
 debian/Google_Nexus_6.prop /usr/share/doc/dummydroid/examples/
 debian/Motorola_Moto_G_1st_gen.prop /usr/share/doc/dummydroid/examples/
 debian/Samsung_Galaxy_Note_2_CyanogenMod.prop /usr/share/doc/dummydroid/examples/
-target/DummyDroid-1.1.jar  /usr/share/dummydroid/
+target/DummyDroid-1.2.jar  /usr/share/dummydroid/
